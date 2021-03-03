@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  background: -webkit-linear-gradient(white, transparent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-family: "Nimbus sans", sans-serif;
+  font-size: 2.7rem;
+  padding: 0;
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+#button {
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 7px;
+  transition: all ease-in-out 0.5s;
+  margin-top: 2rem;
+}
+
+#button:hover {
+  background-color: pink;
+  transition: all ease 0.3s;
+}
+
+#output,
+#button {
+  padding: 1rem;
+}
+
+#output {
+  font-family: "Nimbus sans", sans-serif;
+  font-size: 0.5rem;
+  font-weight: 700;
+}
